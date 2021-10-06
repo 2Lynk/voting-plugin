@@ -1,0 +1,12 @@
+name: VotingPlugin
+version: '${project.version}'
+main: votingplugin.votingplugin.main
+api-version: 1.17
+authors: [ 2Lynk ]
+description: A voting plugin
+website: Nog nieks
+commands:
+  vote:
+    description: Start a vote to set the weather or time, example; /vote weather clear
+    usage: /<command> [weather|time] [clear|rain|thunder|day|night|midnight]
+    aliases: vote
